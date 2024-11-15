@@ -1,0 +1,126 @@
+.my-chats {
+  /* margin-right: -5px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 5px;
+  background-color: #27272700;
+  width: 33%;
+  /* border-radius: 8px; */
+  /* border: 1px solid #ccc; */
+  overflow: hidden;
+}
+  
+.my-chat-bar{
+  display: flex;
+}
+
+.my-chat-info {
+  margin-left: 10px;
+}
+
+  .my-chats.hidden {
+    display: none;
+  }
+  
+  .chats-header {
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 19px;
+    padding-left: 11px;
+    padding-right: 10px;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #020204ba;
+}
+  
+.add-button {
+  font-size: 38px;
+  display: flex;
+  height: 29px;
+  padding-bottom: 5px;
+  align-items: center;
+  padding: 4px;
+  padding-bottom: 12px;
+  background-color: #0256BD;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+  
+  .add-button:hover {
+    background-color: #00229b;
+  }
+
+  .chats-list {
+    width: 100%;
+  }
+  
+  .chats {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #1e2027;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    border-radius: 8px;
+    overflow-y: hidden;
+}
+  
+.chat-box {
+  cursor: pointer;
+  color: white;
+  overflow: hidden;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #98a7d13b;
+  transition: background-color 0.3s ease-in-out;
+}
+  
+  .chat-box:hover {
+    background-color: rgb(16, 0, 163)3b;
+  }
+  
+  .chat-name {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+  
+  .latest-message {
+    font-size: 14px;
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .my-chats {
+      width: 100%; /* Make it full width on smaller screens */
+      border-radius: 0; /* Remove border-radius on smaller screens */
+    }
+  
+    .chats-header {
+      font-size: 16px; /* Decrease font size for header */
+      padding-top: 12px;
+      padding-bottom: 14px;
+      border-radius: 0;
+    }
+  
+    .add-button {
+      font-size: 32px; /* Decrease font size for add button */
+    }
+  }

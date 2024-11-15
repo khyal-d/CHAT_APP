@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  /* background-image: url('https://i.pinimg.com/originals/e8/d9/4e/e8d94e1e8b6b530ad315e9385290141b.jpg'); */
+  /* background-image: url('https://wallpapers.com/images/featured/dark-theme-background-q62o6998n8bqxzrf.jpg'); */
+  background-image: url('https://img.freepik.com/free-photo/black-textured-paper-background_53876-143073.jpg?w=900&t=st=1695758344~exp=1695758944~hmac=c4bcf4d26a424334003b0d7ec43b9cfc4ab7ab086449bf5fd154709511cc0d8d');
+  /* background-image: url('https://img.freepik.com/free-photo/plain-smooth-green-paper-background_53876-102688.jpg?size=626&ext=jpg&ga=GA1.2.938065138.1688904349&semt=ais'); */
+  /* background-image: url('https://images.unsplash.com/photo-1691137493205-111951566e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8eUpSTnJ5dy1UTmN8fGVufDB8fHx8fA%3D%3D&w=1000&q=80'); */
+  background-position: center;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

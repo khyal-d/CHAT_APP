@@ -1,0 +1,30 @@
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.874);   
+    color: rgb(255, 255, 255);
+    color: #121f46
+}
+
+
+/* Chatpage.css */
+
+.chatpage-container {
+    /* Styles for the outer container */
+    width: 100%;
+    /* Add more styles as needed */
+  }
+  
+  .chatpage-content {
+    /* Styles for the content box */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 91.5vh;
+    padding: 10px;
+    /* Add more styles as needed */
+  }
+  
+  /* Add more CSS rules for specific components here */
+  

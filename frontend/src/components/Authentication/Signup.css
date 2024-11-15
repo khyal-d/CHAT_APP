@@ -1,0 +1,67 @@
+/* Apply styles to the container */
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #33333300;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  /* Apply styles to labels */
+  label {
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  /* Apply styles to input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  .pic-input {
+    width: 100%;
+    padding: 6px;
+    color: white;
+    margin-bottom: 7px;
+    background-color: #ffffff12;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply styles to the Show/Hide button */
+  .password-input {
+    position: relative;
+  }
+  
+  .show-hide-button {
+    top: 5px;
+    position: absolute;
+    right: 9px;
+    /* text-transform: uppercase; */
+    background-color: #13191f75;
+    border-radius: 5px;
+    padding: 3px;
+    /* border-bottom: 1px solid white; */
+    cursor: pointer;
+    color: #ffffffd9;
+    font-size: 12px;
+}
+  
+  /* Apply styles to the Sign Up button */
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #697d937a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-bottom: 6px;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  

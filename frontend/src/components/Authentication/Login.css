@@ -1,0 +1,64 @@
+/* Apply styles to the container */
+.login-container {
+  max-width: 400px;
+  margin: -9px auto;
+  background-color: rgba(51, 51, 51, 0);
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 8px;
+  padding-bottom: 20px;
+}
+
+  /* Apply styles to labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  /* Apply styles to input fields */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    color: white;
+    margin-bottom: 7px;
+    background-color: #ffffff12;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply styles to the Show/Hide button */
+  .password-input {
+    position: relative;
+  }
+  
+  .show-hide-button {
+    top: 5px;
+    /* text-transform: uppercase; */
+    background-color: #13191f75;
+    border-radius: 5px;
+    padding: 3px;
+    /* border-bottom: 1px solid white; */
+    cursor: pointer;
+    color: #ffffffd9;
+    font-size: 12px;
+}
+  
+  /* Apply styles to the Login and Guest buttons */
+  .login-button, .guest-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #697d937a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+  
+  .login-button:hover,
+  .guest-button:hover {
+    background-color: #0056b3;
+  }
+  

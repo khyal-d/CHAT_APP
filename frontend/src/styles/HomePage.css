@@ -1,0 +1,87 @@
+/* Apply styles to the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    height: auto;
+    width: 90%;
+    /* backdrop-filter: blur(7px); */
+    background-color: #fce0e000;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Apply styles to the header */
+  .header {
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    padding: 3px;
+    margin: 0px 0px 8px 0;
+    color: white;
+    border-radius: 8px;
+    background-color: #72727200;
+}
+  
+  .title {
+    font-size: 2rem;
+    font-family: "Work sans";
+  }
+
+  .baat{
+    color: #02e502;
+  }
+  
+
+  .cheet{
+    color: #3d95ed;
+  }
+  /* Apply styles to the tabs container */
+  .content {
+    background-color: #fff0;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ccc;
+  }
+  
+  .tabs-container {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  
+  .tab {
+    flex: 1;
+  }
+  
+  .tab button {
+    width: 90%;
+    padding: 10px;
+    background-color: #2e3a497a;
+    /* border: 1px solid white; */
+    transition: .2s ease-in-out all;
+    color: #ffffffc7;
+    margin-left: 5%;
+    border-bottom: 1px solid #ffffffba;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.tab button:hover {
+  background-color: #002f61a3;
+}
+  
+  /* Apply styles to the tab panels */
+  .tab-panels {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab-panel {
+    display: none;
+  }
+  
+  .tab-panel.active {
+    display: block;
+  }
+  
